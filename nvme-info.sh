@@ -18,6 +18,24 @@ function format_size {
     echo "$size ${units[$unit_count]}"
 }
 
+# Check if nvme-cli package is installed
+if ! command -v nvme &>/dev/null; then
+    echo "nvme-cli package is required but not installed. Please install the package and try again."
+    exit 1
+fi
+
+# Check if jq package is installed
+if ! command -v jq &>/dev/null; then
+    echo "jq package is required but not installed. Please install the package and try again."
+    exit 1
+fi
+
+# Check if bc package is installed
+if ! command -v bc &>/dev/null; then
+    echo "bc package is required but not installed. Please install the package and try again."
+    exit 1
+fi
+
 # Output format
 OUTPUT="normal"
 
