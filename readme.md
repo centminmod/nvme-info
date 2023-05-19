@@ -1,5 +1,21 @@
 Shell script to grab NVMe drive information
 
+# Requirements
+
+Requires `nvme-cli`, `jq` and `bc` packages
+
+```
+yum -y install nvme-cli jq bc
+```
+
+or
+
+```
+apt -y install nvme-cli jq bc
+```
+
+# Examples
+
 Example below for:
 
 - Samsung SSD PM983 960GB 2.5 U.2 Gen 3.0 x4 PCIe NVMe
