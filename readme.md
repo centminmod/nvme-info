@@ -1,3 +1,18 @@
+Shell script to grab NVMe drive information
+
+Example below for:
+
+- Samsung SSD PM983 960GB 2.5 U.2 Gen 3.0 x4 PCIe NVMe
+  * Up to 3,000MB/s Read, 1,050MB/s Write
+  * 4K random read/write 400,000/40,000 IOPS
+  * 1366 TBW / 1.3 DWPD
+  * Power: 4 Watt (idle) 8.6 Watt (read) 8.1 Watt (write)
+- Kingston DC1500M U.2 Enterprise SSD Gen 3.0 x4 PCIe NVME
+  * Up to 3,100MB/s Read, 1,700MB/s Write
+  * Steady-state 4k read/write 440,000/150,000 IOPS
+  * 1681 TBW (1 DWPD/5yrs) (1.6 DWPD/3yrs)
+  * Power: Idle: 6.30W Average read: 6.21W Average write: 11.40W Max read: 6.60W Max write: 12.24W
+
 non-JSON format
 
 ```
