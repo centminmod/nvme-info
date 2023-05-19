@@ -37,7 +37,7 @@ Power Cycles: 22
 JSON format
 
 ```
-./nvme-info.sh  -o json
+./nvme-info.sh -o json
 ```
 ```json
 [{
