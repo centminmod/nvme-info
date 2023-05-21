@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/centminmod/nvme-info) ![GitHub contributors](https://img.shields.io/github/contributors/centminmod/nvme-info) ![GitHub Repo stars](https://img.shields.io/github/stars/centminmod/nvme-info) ![GitHub watchers](https://img.shields.io/github/watchers/centminmod/nvme-info) ![GitHub Sponsors](https://img.shields.io/github/sponsors/centminmod) ![GitHub top language](https://img.shields.io/github/languages/top/centminmod/nvme-info) ![GitHub language count](https://img.shields.io/github/languages/count/centminmod/nvme-info)
+
 Shell script to grab NVMe drive information
 
 # Requirements
